@@ -243,4 +243,7 @@ The server will auto-sync the DB on start and create a local SQLite file at `./d
 
 Notes
 
+- Payment flows are simulated via walletBalance on User + order.escrowHeld field.
+- Replace MONGO_URI with a real MongoDB URI in production.
+
 - This is a sample backend meant for interviews and demos. Replace the simulated payment flows with a real provider in production.
